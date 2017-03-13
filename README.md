@@ -1,5 +1,5 @@
-# Advanced-random-IS
-Developing an advanced model for random integration sites
+# Advanced-random-IR
+Developing an advanced theoretical model for random integration regions (IR)
 
 NCT Heidelberg  
 Section Molecular and Gene Therapy  
@@ -7,4 +7,4 @@ Authors: Elvira Mingazova together with Saira Afzal, Irene Gil-Farina and Raffae
 Start 06.03.17  
 
 #### getRegion.ipynb  
-In this file you will find a step by step description of the model Zero for the random integration sites generator
+In this file you will find a step by step description of the model Zero for the random integration regions generator
