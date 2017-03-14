@@ -40,16 +40,16 @@ count = 1
 #loop on n random IR
 print "chr#", '\t', 'Start', '\t\t', 'End', '\t\trnd#'
 for i in range(namespace.n):
-   #select a chromosome
-   chrom = random.randint(1,24) #the name "chrom" was chosen because "chr" is a built-in function
+    #select a chromosome
+    chrom = random.randint(1,24) #the name "chrom" was chosen because "chr" is a built-in function
 
-   #select a site on that chromosome
-   start = random.randint(1,chrLen[chrom])
+    #select a site on that chromosome
+    start = random.randint(1,chrLen[chrom])
 
-   #select a random region
-   end = start + random.randint(0,namespace.r) + namespace.d
-   if len(str(chrom))==1:
-       print "chr{}".format(chrom),'',"\t",start,"\t",end,"\trnd{}".format(count)
-   else:
-       print "chr{}".format(chrom),"\t",start,"\t",end,"\trnd{}".format(count)
-   count +=1
+    #select a random region
+    end = start + random.randint(0,namespace.r) + namespace.d
+    if len(str(chrom))==1:
+        print "chr{}".format(chrom),'',"\t",start,"\t",end,"\trnd{}".format(count)
+    else:
+        print "chr{}".format(chrom),"\t",start,"\t",end,"\trnd{}".format(count)
+    count +=1
