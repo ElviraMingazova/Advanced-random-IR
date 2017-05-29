@@ -1,5 +1,5 @@
 # Advanced-random-IR
-Developing an advanced theoretical model for random integration regions (IR)
+Developing a framework for random region generation (RARE)
 
 NCT Heidelberg  
 Section Molecular and Gene Therapy  
